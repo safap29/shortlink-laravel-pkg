@@ -1,0 +1,16 @@
+{
+    "name": "short-link/safa",
+    "description": "A shortener package that short links",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Safa Pourtavakkoli",
+            "email": "safa.p1992@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "packafadev\\short-link": "../src/"
+        }
+    }
+}
