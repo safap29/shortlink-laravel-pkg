@@ -1,5 +1,5 @@
 {
-    "name": "packafadev/short-link",
+    "name": "packafa/short-link",
     "description": "A shortener package that short links",
     "license": "MIT",
     "authors": [
@@ -10,7 +10,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "packafadev\\short-link": "../src/"
+            "packafa\\short-link": "../src/"
         }
     }
 }

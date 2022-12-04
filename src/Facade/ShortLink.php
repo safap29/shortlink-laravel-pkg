@@ -1,6 +1,6 @@
 <?php
 
-namespace Packafadev\ShortLink\Facade;
+namespace Packafa\ShortLink\Facade;
 
 use Illuminate\Support\Facades\Facade;
 

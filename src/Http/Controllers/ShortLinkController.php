@@ -1,10 +1,10 @@
 <?php
 
-namespace Packafadev\ShortLink\Http\Controllers;
+namespace Packafa\ShortLink\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use Packafadev\ShortLink\Models\ShortLink;
+use Packafa\ShortLink\Models\ShortLink;
 use Illuminate\Support\Str;
 
 class ShortLinkController extends Controller

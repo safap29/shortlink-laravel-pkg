@@ -1,6 +1,6 @@
 <?php
 
-namespace Packafadev\ShortLink\Models;
+namespace Packafa\ShortLink\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;

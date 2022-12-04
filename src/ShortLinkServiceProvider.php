@@ -1,9 +1,9 @@
 <?php
 
-namespace Packafadev\ShortLink;
+namespace Packafa\ShortLink;
 
 use Illuminate\Support\ServiceProvider;
-use Packafadev\ShortLink;
+use Packafa\ShortLink;
 
 class ShortLinkServiceProvider extends ServiceProvider
 {
