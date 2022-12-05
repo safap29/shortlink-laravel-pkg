@@ -12,5 +12,12 @@
         "psr-4": {
             "packafa\\short-link\\": "../src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Packafa\\ShortLink\\ShortLinkServiceProvider"
+            ]
+        }
     }
 }
