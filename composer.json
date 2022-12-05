@@ -1,6 +1,6 @@
 {
     "name": "packafa/short-link",
-    "description": "A shortener package that short links",
+    "description": "A shortener package that short urls",
     "license": "MIT",
     "authors": [
         {
