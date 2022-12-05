@@ -10,7 +10,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "packafa\\short-link": "../src/"
+            "packafa\\short-link\\": "../src/"
         }
     }
 }
