@@ -1,6 +1,6 @@
 {
     "name": "packafa/short-link",
-    "description": "A shortener package that short urls",
+    "description": "A shortener package that short links",
     "license": "MIT",
     "authors": [
         {
@@ -10,13 +10,13 @@
     ],
     "autoload": {
         "psr-4": {
-            "packafa\\short-link\\": "../src/"
+            "short-link\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Packafa\\ShortLink\\ShortLinkServiceProvider"
+                "ShortLink\\ShortLinkServiceProvider"
             ]
         }
     }

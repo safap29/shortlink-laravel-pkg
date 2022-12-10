@@ -1,0 +1,46 @@
+{
+    "name": "packafa/short-link",
+    "description": "A shortener package that short urls",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Safa Pourtavakkoli",
+            "email": "safa.p1992@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "packafa\\short-link\\": "../src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Packafa\\ShortLink\\ShortLinkServiceProvider"
+            ]
+        }
+    }
+}
+{
+    "name": "packafa/short-link",
+    "description": "A shortener package that short links",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Safa Pourtavakkoli",
+            "email": "safa.p1992@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "short-link\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ShortLink\\ShortLinkServiceProvider"
+            ]
+        }
+    }
+}
