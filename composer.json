@@ -18,6 +18,9 @@
             "providers": [
                 "Packafa\\ShortLink\\ShortLinkServiceProvider"
             ],
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            },
             "aliases": {
                 "ShortLink": "Packafa\\ShortLink\\ShortLinkServiceProvider"
             }

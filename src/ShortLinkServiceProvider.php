@@ -32,7 +32,7 @@ class ShortLinkServiceProvider extends ServiceProvider
             __DIR__.'\Configs\shortlink.php' => config_path('shortlink.php'),
             // __DIR__.'\Models\ShortLink.php' => app_path('Models/ShortLink.php'),
             __DIR__.'\Migrations' => database_path('/migrations'),
-            __DIR__.'\Views' => base_path('resources/views/shortlink'),
+            __DIR__.'\Views' => resource_path('views/shortlink'),
         ]);
     }
     
