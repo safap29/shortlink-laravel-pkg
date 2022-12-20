@@ -1,6 +1,7 @@
 {
     "name": "packafa/short-link",
     "description": "A shortener package that short urls",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
@@ -8,9 +9,11 @@
             "email": "safa.p1992@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
+    "require": {},
     "autoload": {
         "psr-4": {
-            "packafa\\short-link\\": "src/"
+            "Packafa\\ShortLink\\": "src/"
         }
     },
     "extra": {
@@ -18,9 +21,6 @@
             "providers": [
                 "Packafa\\ShortLink\\ShortLinkServiceProvider"
             ],
-            "branch-alias": {
-                "dev-master": "1.0-dev"
-            },
             "aliases": {
                 "ShortLink": "Packafa\\ShortLink\\ShortLinkServiceProvider"
             }
